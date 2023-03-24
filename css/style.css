@@ -3,7 +3,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 
 
-.custum{
+.custum_info{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -13,10 +13,30 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 .custum_icon{
   height: 100px;
   width: 100px;
-  background-color: rgb(249, 249, 241);
+  background-color: rgb(255, 255, 255);
   border-radius: 20px;
-  border: 3px solid white;
+  border: 3px solid rgb(132, 129, 129);
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.list_icon{
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top: -13px;
+  left: -25px;
+}
+
+.firstview__point-item{
+  position: relative;
+}
+
+.emphasize{
+  font-size: 26px;
+  font-weight: 800;
+}
+.emphasize_unit{
+  font-weight: lighter;
 }
