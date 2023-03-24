@@ -29,6 +29,11 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
   left: -25px;
 }
 
+.contents_{
+  display: flex;
+  justify-content: center;
+}
+
 .firstview__point-item{
   position: relative;
 }
@@ -39,4 +44,20 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 }
 .emphasize_unit{
   font-weight: lighter;
+}
+
+.outline_text{
+  font-size: large;
+  text-align: center;
+}
+
+.outline_subtitle{
+  font-size: large;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.icon_work{
+  height: 40px;
+  width: 40px;
 }
